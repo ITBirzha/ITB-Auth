@@ -1,0 +1,16 @@
+pre-commit:
+  parallel: true
+  commands:
+    linting:
+      run: npm run lint
+
+    formatting:
+      run: npm run format
+
+pre-push:
+  commands:
+    changelog:
+      run: |
+        git add CHANGELOG.md &&
+        git commit -m "chore(release): обновлен changelog" || echo "No changes to commit" &&
+        git push --no-verify
