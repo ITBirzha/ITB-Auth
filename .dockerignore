@@ -22,5 +22,4 @@ eslint.config.js
 .prettierrc.js
 .prettierignore
 
-
-
+CHANGELOG.md
