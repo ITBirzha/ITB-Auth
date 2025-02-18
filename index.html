@@ -59,7 +59,7 @@
       name="robots"
     />
     <meta
-      href="https://itbrz.ru/"
+      href="https://itb-auth.vercel.app"
       name="canonical"
     />
 
@@ -80,7 +80,7 @@
       property="og:type"
     />
     <meta
-      content="https://itbrz.ru/"
+      content="https://itb-auth.vercel.app"
       property="og:url"
     />
     <meta
@@ -88,7 +88,7 @@
       property="og:locale"
     />
     <meta
-      content="https://itbrz.ru/opengraph-image.png"
+      content="https://itb-auth.vercel.app/opengraph-image.png"
       property="og:image"
     />
     <meta
@@ -129,15 +129,15 @@
       property="twitter:creator"
     />
     <meta
-      content="https://itbrz.ru/opengraph-image.png"
+      content="https://itb-auth.vercel.app/opengraph-image.png"
       property="twitter:image"
     />
     <meta
-      content="itbrz.ru"
+      content="itb-auth.vercel.app"
       property="twitter:domain"
     />
     <meta
-      content="https://itbrz.ru/"
+      content="https://itb-auth.vercel.app/"
       property="twitter:url"
     />
 
@@ -150,20 +150,22 @@
       href="/favicons/favicon.ico"
       rel="icon"
       sizes="any"
+      type="image/svg+xml"
     />
     <link
       href="/favicons/apple-icon.png"
       rel="apple-touch-icon"
+      type="image/png"
     />
 
     <meta
-      name="google-site-verification"
       content="SATBRYhqs-zELEUODEGOx59NMY4qjQMqFni_IwexER8"
+      name="google-site-verification"
     />
 
     <meta
-      name="yandex-verification"
       content="5e5359c8ee977ecb"
+      name="yandex-verification"
     />
 
     <meta
@@ -171,7 +173,14 @@
       http-equiv="X-UA-Compatible"
     />
     <meta
-      content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline';"
+      content="
+  default-src 'self';
+  script-src 'self';
+  style-src 'unsafe-inline';
+  img-src 'self';
+  font-src 'self';
+  connect-src 'self';
+"
       http-equiv="Content-Security-Policy"
     />
   </head>

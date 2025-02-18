@@ -9,12 +9,15 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'ru',
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false
     },
     backend: {
       loadPath: '/locales/{{lng}}.json'
+    },
+    react: {
+      useSuspense: true
     },
     detection: {
       order: ['localStorage', 'cookie', 'navigator'],

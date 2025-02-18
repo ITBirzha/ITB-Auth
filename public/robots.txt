@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host: itbrz.ru
+Host: https://itb-auth.vercel.app
 Sitemap: https://itb-auth.vercel.app/sitemap.xml
