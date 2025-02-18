@@ -35,7 +35,7 @@
 *.ico                binary
 *.jpg                binary
 *.jpeg               binary
-*.avif               binary
+*.webp               binary
 
 
 # Text files

@@ -70,6 +70,6 @@
 }
 
 body {
-  background-image: url('../assets/background.avif');
+  background-image: url('../assets/background.webp');
   backdrop-filter: blur(3px);
 }
