@@ -2261,10 +2261,10 @@ html-parse-stringify@^3.0.1:
   dependencies:
     void-elements "3.1.0"
 
-i18next-browser-languagedetector@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-8.0.2.tgz"
-  integrity sha512-shBvPmnIyZeD2VU5jVGIOWP7u9qNG3Lj7mpaiPFpbJ3LVfHZJvVzKR4v1Cb91wAOFpNw442N+LGPzHOHsten2g==
+i18next-browser-languagedetector@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-8.0.4.tgz#9b16f6440b6aad3521f2ab1a2ffbb7d917397df2"
+  integrity sha512-f3frU3pIxD50/Tz20zx9TD9HobKYg47fmAETb117GKGPrhwcSSPJDoCposXlVycVebQ9GQohC3Efbpq7/nnJ5w==
   dependencies:
     "@babel/runtime" "^7.23.2"
 
@@ -3471,7 +3471,7 @@ set-cookie-parser@^2.6.0:
   integrity sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==
 
 "shadow@file:.":
-  version "0.0.0"
+  version "0.0.2"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^6.7.1"
     "@fortawesome/free-brands-svg-icons" "^6.7.1"
@@ -3485,7 +3485,7 @@ set-cookie-parser@^2.6.0:
     class-variance-authority "^0.7.0"
     clsx "^2.1.1"
     i18next "^24.2.2"
-    i18next-browser-languagedetector "^8.0.2"
+    i18next-browser-languagedetector "^8.0.4"
     i18next-http-backend "^3.0.2"
     lucide-react "^0.460.0"
     react "^18.3.1"
@@ -3493,7 +3493,7 @@ set-cookie-parser@^2.6.0:
     react-hook-form "^7.53.2"
     react-i18next "^15.4.0"
     react-router-dom "^7.0.1"
-    shadow "file:../../../AppData/Local/Yarn/Cache/v6/npm-shadow-0.0.0-003c17bd-4829-4f5b-8ecc-cc47d8709174-1739717937310/node_modules/shadow"
+    shadow "file:."
     tailwind-merge "^2.5.4"
     tailwindcss-animate "^1.0.7"
     zod "^3.23.8"
