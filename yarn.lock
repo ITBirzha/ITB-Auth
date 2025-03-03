@@ -410,10 +410,10 @@
     "@eslint/core" "^0.10.0"
     levn "^0.4.1"
 
-"@evilmartians/lefthook@^1.10.10":
-  version "1.10.10"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.10.10.tgz"
-  integrity sha512-MRIA0zJzUBbmcbecI7QjI08li4ffpmZ6DeVydEiZSg0vSx5mElEMEjDEjkI60eSV0XOm7LRbQKz2rfW6NqH8Cw==
+"@evilmartians/lefthook@^1.11.2":
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/@evilmartians/lefthook/-/lefthook-1.11.2.tgz#64e17a25d352a25074e85c6b4798a6554cd8cf64"
+  integrity sha512-8jTMnouJ+OBJmC7CKtI8Fj6lZ8aLC0W01QMsWkZdfdfZmVZ4x1LLGTRhSDb6o6Ooz/455CzRyMvtKuwARr+EHQ==
 
 "@fortawesome/fontawesome-common-types@6.7.2":
   version "6.7.2"
