@@ -39,25 +39,6 @@
       })
     </script>
 
-    <!-- Yandex.RTB -->
-    <script>
-      window.yaContextCb = window.yaContextCb || []
-    </script>
-    <script
-      src="https://yandex.ru/ads/system/context.js"
-      async
-    ></script>
-
-    <script type="text/javascript">
-      (function(e, x, pe, r, i, me, nt){
-        e[i]=e[i]||function(){(e[i].a=e[i].a||[]).push(arguments)},
-          me=x.createElement(pe),me.async=1,me.src=r,nt=x.getElementsByTagName(pe)[0],me.addEventListener("error",function(){function cb(t){t=t[t.length-1],"function"==typeof t&&t({flags:{}})};Array.isArray(e[i].a)&&e[i].a.forEach(cb);e[i]=function(){cb(arguments)}}),nt.parentNode.insertBefore(me,nt)})
-      (window, document, "script", "https://abt.s3.yandex.net/expjs/latest/exp.js", "ymab");
-
-      ymab("metrika.99949390", "setConfig", {enableSetYmUid: true});
-      ymab("metrika.99949390", "init"/*, {clientFeatures}, {callback}*/);
-    </script>
-
     <meta charset="UTF-8" />
     <meta
       content="width=device-width, initial-scale=1.0"
@@ -221,23 +202,6 @@
     />
   </head>
   <body>
-    <noscript
-      ><div>
-        <img
-          src="https://mc.yandex.ru/watch/99949390"
-          style="position: absolute; left: -9999px"
-          alt=""
-        /></div
-    ></noscript>
-    <script>
-      window.yaContextCb.push(() => {
-        Ya.Context.AdvManager.render({
-          blockId: 'R-A-14289355-1',
-          type: 'floorAd',
-          platform: 'desktop'
-        })
-      })
-    </script>
     <div id="root"></div>
     <script
       src="/src/main.tsx"
