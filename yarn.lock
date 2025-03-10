@@ -453,10 +453,12 @@
   dependencies:
     prop-types "^15.8.1"
 
-"@hookform/resolvers@^3.9.1":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-3.10.0.tgz#7bfd18113daca4e57e27e1205b7d5a2d371aa59a"
-  integrity sha512-79Dv+3mDF7i+2ajj7SkypSKHhl1cbln1OGavqrsF7p6mbUv11xpqpacPsGDCTRvCSjEEIez2ef1NveSVL3b0Ag==
+"@hookform/resolvers@^4.1.3":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-4.1.3.tgz#97a20cc0e88d3b66c50e1e9fd6e089a94c689e07"
+  integrity sha512-Jsv6UOWYTrEFJ/01ZrnwVXs7KDvP8XIo115i++5PWvNkNvkrsTfGiLS6w+eJ57CYtUtDQalUWovCZDHFJ8u1VQ==
+  dependencies:
+    "@standard-schema/utils" "^0.3.0"
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -777,6 +779,11 @@
   version "4.35.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.35.0.tgz#05f25dbc9981bee1ae6e713daab10397044a46ca"
   integrity sha512-PIQeY5XDkrOysbQblSW7v3l1MDZzkTEzAfTPkj5VAu3FW8fS4ynyLg2sINp0fp3SjZ8xkRYpLqoKcYqAkhU1dw==
+
+"@standard-schema/utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@standard-schema/utils/-/utils-0.3.0.tgz#3d5e608f16c2390c10528e98e59aef6bf73cae7b"
+  integrity sha512-e7Mew686owMaPJVNNLs55PUvgz371nKgwsc4vxE49zsODpJEnxgxRo2y/OKrqueavXgZNMDVj3DdHFlaSAeU8g==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
@@ -3591,7 +3598,7 @@ set-cookie-parser@^2.6.0:
     "@fortawesome/free-brands-svg-icons" "^6.7.1"
     "@fortawesome/free-solid-svg-icons" "^6.7.1"
     "@fortawesome/react-fontawesome" "^0.2.2"
-    "@hookform/resolvers" "^3.9.1"
+    "@hookform/resolvers" "^4.1.3"
     "@radix-ui/react-label" "^2.1.0"
     "@radix-ui/react-slot" "^1.1.0"
     "@radix-ui/react-toast" "^1.2.2"
@@ -3607,7 +3614,7 @@ set-cookie-parser@^2.6.0:
     react-hook-form "^7.53.2"
     react-i18next "^15.4.0"
     react-router-dom "^7.0.1"
-    shadow "file:../../../AppData/Local/Yarn/Cache/v6/npm-shadow-0.0.2-fabcd036-3bb7-4747-bbea-8b8c28668bf1-1741468740021/node_modules/shadow"
+    shadow "file:."
     tailwind-merge "^2.5.4"
     tailwindcss-animate "^1.0.7"
     zod "^3.23.8"
